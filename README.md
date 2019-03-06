@@ -1,7 +1,7 @@
 # systemofadown
 Check Toxicity for users/threads on reddit
 
-Example: `python3 bot.py -un spez 200`
+Example: `python3 toxic.py -un spez 200`
 
 Will parse spez's latest 200 comments and return an average toxicity rating. 
 
@@ -12,7 +12,7 @@ These are my (/u/CalicoCatalyst) current guesses at toxicity ratings:
 25 = pretty toxic
 
 ```
-usage: bot.py [-h] [-d] [-un] [-th] link limit
+usage: toxic.py [-h] [-d] [-un] [-th] link limit
 
 Bot To Add Titles To Images
 
